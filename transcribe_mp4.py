@@ -52,7 +52,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description='Transcribe en español un archivo .mp4 con Whisper.'
     )
-    parser.add_argument('video', help='Ruta del archivo .mp4 (1.39 GB).')
+    parser.add_argument('video', help='Ruta del archivo .mp4')
     parser.add_argument(
         '-m', '--model',
         default='medium',
